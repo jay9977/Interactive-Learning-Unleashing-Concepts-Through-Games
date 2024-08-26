@@ -1,0 +1,101 @@
+#intro{
+    height: 500px;
+    background: url(css/images/back.jpg) center center;
+    background-size: cover;
+    padding-top: 200px;
+    padding: 50px 250px 0 250px;
+     color: white;
+    text-align: center;
+}
+#intro h1{
+    font-size: 100px;
+    font-weight: bolder;
+    font-family:cursive;
+    color: ghostwhite;
+}
+#intro h4{
+    font-weight: bold;
+    font-family:cursive;
+    padding-bottom: 50px;
+}
+.highlights{
+    margin: 10px;
+    font-family: cursive;
+    border: solid 2px dimgrey;
+    border-radius: 10px;
+}
+.highlights h2{
+    font-weight: bolder;
+    padding: 20px;
+    color: dimgrey;
+    text-align: center;
+    font-size: 40px;
+}
+.gallary {
+    height: 1000px;
+    padding: 0 100px 30px 100px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-gap: 5px;
+    grid-template-areas:
+        "a a b b c c d d"
+        
+   
+        
+}
+.gallary div{
+    height: 100%;
+    width: auto;
+    background-size: cover;
+    background-position: center;
+    border-radius: 5px;
+    color: white;
+    padding-left: 10px;
+    font-size: 20px;
+}
+#gate{
+    background-image: url(css/images/calculator.png);
+    height: 200px;
+    width: 200px;
+    grid-area: a;
+}
+#marinedrive{
+    background-image: url(css/images/bee.png) ;
+    height: 200px;
+    width: 200px;
+    grid-area: b;
+}
+
+#hotel{
+    background-image: url(css/images/memory-loss.png) ;
+    grid-area: d;
+    height: 200px;
+    width: 200px;
+}
+#station{
+    background-image: url(css/images/word.png) ;
+      grid-area: c;
+    height: 200px;
+    width: 200px;
+}
+
+
+.gallary div:hover{
+    zoom : 110%;
+    font-weight: bold;
+     background-color: black;
+}
+.footer{
+    color: white;
+    background-color: black;
+    text-align: center;
+    height: 100px;
+    padding-top: 35px
+}
+.back{
+    background-color:#ffffcc;
+    border: 4px;
+    border : solid; 
+    color : black;
+}
