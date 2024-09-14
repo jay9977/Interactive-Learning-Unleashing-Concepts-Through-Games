@@ -1,0 +1,193 @@
+body{
+    height: 100%;
+    //background: linear-gradient(to bottom,white,black);
+    background-image: url(images/pexels-moose-photos-1037993.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+#container{
+/*    padding: 15px;*/
+/*    margin: auto;*/
+    left: 50%;
+    top: 50%;
+    height: 470px;
+    margin-top: -235px;
+    width: 600px;
+    margin-left: -300px;
+    background-color: powderblue ;
+    position: absolute;
+    border-radius: 10px;
+    box-shadow: 0px 4px 0px 0px lightskyblue;
+}
+#score{
+    padding: 3px;
+    color: gray;
+    font-size: 25px;
+    background-color: lightgoldenrodyellow;
+    box-shadow: 0px 4px 0px 0px gold;
+    position: absolute;
+    left: 480px;
+    border-radius: 5px;
+}
+#right{
+    padding: 5px;
+    color: white;
+    font-size: 25px;
+    background-color: limegreen;
+    box-shadow: 0px 4px 0px 0px green;
+    position: absolute;
+    left: 250px;
+    border-radius: 5px;
+    visibility: hidden;
+}
+#wrong{
+    padding: 5px;
+    color: white;
+    font-size: 25px;
+    background-color: red;
+    box-shadow: 0px 4px 0px 0px brown;
+    position: absolute;
+    left: 230px;
+    border-radius: 5px;
+    visibility: hidden;
+}
+#question{
+    padding: 0px;
+    padding-top: 40px;
+    width: 440px;
+    height: 100px;
+    margin:  67px 80px 10px 80px;
+    background-color: lightgreen ;
+    box-shadow: 0px 4px 0px 0px limegreen;
+    position: absolute;
+    text-align: center;
+    border-radius: 5px;
+    font-size: 70px;
+    color: white;
+}
+#instruction{
+    padding-top: 5px;
+    width: 440px;
+    height: 40px;
+    background-color: lavender;
+    color: purple;
+    box-shadow: 0px 4px 0px 0px plum;
+    position: absolute;
+    text-align: center;
+    border-radius: 5px;
+    margin:  220px 80px 10px 80px;
+    font-size: 22px;
+}
+#choices{
+    margin:  283px 80px 10px 80px;
+}
+.box{
+    color: grey;
+    padding-top: 15px;
+    float: left;
+    background-color: whitesmoke;
+    width: 100px;
+    height: 95px;
+    margin-right: 12px;
+    text-align: center;
+    border-radius: 5px;
+    font-size: 50px;
+    box-shadow: 0px 4px 0px 0px grey;
+    transition: all 0.5s;
+}
+#box4{
+    margin-right: 0px;
+}
+.box:hover{
+    background-color: gray;
+    color: white;
+}
+.box:active{
+    color: white;
+    background-color:black;
+    margin-top: 0px;
+    box-shadow: 0px 6px 0px 0px black;
+}
+#reset{
+    padding: 2px;
+    font-size: 25px;
+    color: hotpink;
+    background-color: antiquewhite;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 0px 3px 0px 0px hotpink;
+    position: absolute;
+    left: 150px;
+    transition: all 0.2s;
+}
+#btn{
+    width: 500px;
+    margin:  400px 80px 10px 80px;
+    align-content: center;
+    position: relative;
+}
+#reset:hover{
+    color: white;
+    background-color: plum;
+    box-shadow: 0px 3px 0px 0px purple;
+}
+#reset:active{
+    color: white;
+    background-color: purple;
+}
+#time{
+    padding: 2px;
+    font-size: 25px;
+    color: saddlebrown;
+    background-color:  khaki;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 0px 3px 0px 0px darkkhaki;
+    position: absolute;
+    left:175px;
+    visibility: hidden;
+}
+#gameover{
+    background: linear-gradient(to bottom,orangered,orange);
+    position: absolute;
+    height: 200px;
+    width: 480px;
+    top: 150px;
+    left: 75px;
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    border-radius: 5px;
+    box-shadow: 0px 3px 0px 0px red;
+    font-size: 35px;
+    z-index: 2;
+    visibility: hidden;
+    font-weight: bold;
+}
+button{
+    border: none;
+}
+*{
+    font-family: cursive;
+}
+
+.feature_btn {
+display: inline-block;
+padding: 20px 20px;
+font-size: 1em;
+cursor: pointer;
+border: 5px solid #E6E6E6;
+background:Black;
+color: #FFF;
+font-weight: 1000;
+font-size: 110% ;
+text-decoration: none;
+outline: none;
+margin-top: 10px;
+margin-left: 50px;
+/* border-radius: 5px; */
+}
+.feature_btn:hover{
+  background:#282A3A;
